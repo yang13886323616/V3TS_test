@@ -11,6 +11,9 @@ app.use(ElementPlus, {
   locale: zhCn,
 })
 
+// 获取环境变量import.meta.env
+console.log(import.meta.env)
+
 // svg插件需要配置代码
 import 'virtual:svg-icons-register'
 
